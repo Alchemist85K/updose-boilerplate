@@ -1,0 +1,19 @@
+{
+  "skills": [
+    "npx skills add https://github.com/intellectronica/agent-skills --skill context7",
+    "npx skills add https://github.com/wshobson/agents --skill typescript-advanced-types",
+    
+    "npx skills add https://github.com/vercel-labs/next-skills --skill next-best-practices",
+    "npx skills add https://github.com/vercel-labs/next-skills --skill next-cache-components",
+    "npx skills add https://github.com/wshobson/agents --skill nextjs-app-router-patterns",
+    "npx skills add https://github.com/vercel-labs/agent-skills --skill vercel-composition-patterns",
+    "npx skills add https://github.com/vercel-labs/agent-skills --skill vercel-react-best-practices",
+
+    "npx skills add https://github.com/wshobson/agents --skill tailwind-design-system",
+    "npx skills add https://github.com/vercel-labs/agent-skills --skill web-design-guidelines",
+    "npx skills add https://github.com/anthropics/skills --skill frontend-design",
+    
+    "npx skills add https://github.com/supabase/agent-skills --skill supabase-postgres-best-practices",
+    "npx skills add https://github.com/better-auth/skills --skill better-auth-best-practices"
+  ]
+}

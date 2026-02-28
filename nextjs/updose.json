@@ -1,0 +1,10 @@
+{
+  "name": "updose-boilerplate/nextjs",
+  "author": "Alchemist85K",
+  "version": "0.1.0",
+  "targets": [
+    "claude"
+  ],
+  "tags": ["nextjs", "react", "typescript", "tailwindcss", "supabase", "web"],
+  "description": "nextjs boilerplate"
+}
