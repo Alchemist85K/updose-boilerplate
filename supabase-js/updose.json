@@ -1,0 +1,8 @@
+{
+  "name": "updose-boilerplate/supabase-js",
+  "author": "Alchemist85K",
+  "version": "1.0.0",
+  "targets": ["claude"],
+  "tags": ["supabase", "postgres"],
+  "description": "Supabase security rules and Postgres best practices for AI coding agents."
+}

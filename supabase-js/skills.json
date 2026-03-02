@@ -1,0 +1,5 @@
+{
+  "skills": [
+    "npx skills add https://github.com/supabase/agent-skills --skill supabase-postgres-best-practices"
+  ]
+}
