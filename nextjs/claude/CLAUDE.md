@@ -16,7 +16,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Documentation Management Rules
 
-**docs/plans/**:
+### docs/plans/
 
 - Filename format: `[feature]-YYYY-MM-DD.md`
 - Every plan file must include a checklist
@@ -24,12 +24,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Create a new file if a new plan is needed for the same feature
 - Multiple plans on the same day: `[feature]-YYYY-MM-DD-1.md`, `[feature]-YYYY-MM-DD-2.md`
 
-**docs/review/**:
+### docs/review/
 
 - Document reviews, retrospectives, and lessons learned
 - Filename format: `[topic]-YYYY-MM-DD.md`
 - Include: summary, what went well, what needs improvement, action items
 
-**docs/ARCHITECTURE.md, docs/DEVELOPMENT.md**:
+### docs/specs/
+
+- Document feature specifications, behavior definitions, and system design decisions
+- Filename format: `[feature].md`
+- Include: overview, expected behavior, edge cases, constraints, update date
+- Update existing spec when behavior changes
+
+### docs/ARCHITECTURE.md, docs/DEVELOPMENT.md
 
 - Keep up to date when code changes, after confirming with the user

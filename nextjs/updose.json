@@ -1,10 +1,8 @@
 {
   "name": "updose-boilerplate/nextjs",
   "author": "Alchemist85K",
-  "version": "0.2.0",
-  "targets": [
-    "claude"
-  ],
-  "tags": ["nextjs", "react", "typescript", "tailwindcss", "supabase", "web"],
-  "description": "nextjs boilerplate"
+  "version": "1.0.0",
+  "targets": ["claude"],
+  "tags": ["nextjs", "react", "typescript", "tailwindcss", "web"],
+  "description": "Next.js 16+ App Router rules and skills — security, React best practices, Tailwind v4, Vitest, and frontend design"
 }
