@@ -1,0 +1,8 @@
+{
+  "name": "updose-boilerplate/git",
+  "author": "Alchemist85K",
+  "version": "1.0.0",
+  "targets": ["claude"],
+  "tags": ["git", "commit", "pr", "branch", "gitflow", "conventional-commits"],
+  "description": "Git rules and skills for AI coding agents. Includes conventional commits, PR creation, and gitflow branch management."
+}
