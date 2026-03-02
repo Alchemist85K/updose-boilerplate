@@ -20,6 +20,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - Filename format: `[feature]-YYYY-MM-DD.md`
 - Every plan file must include a checklist
+- Mark checklist items as completed (`[x]`) as work progresses
 - Do not modify documents where all checklist items are completed
 - Create a new file if a new plan is needed for the same feature
 - Multiple plans on the same day: `[feature]-YYYY-MM-DD-1.md`, `[feature]-YYYY-MM-DD-2.md`
@@ -39,4 +40,5 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### docs/ARCHITECTURE.md, docs/DEVELOPMENT.md
 
-- Keep up to date when code changes, after confirming with the user
+- When code changes affect architecture or development setup, notify the user and ask whether to update these documents
+- Do not update without user confirmation
