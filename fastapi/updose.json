@@ -1,0 +1,8 @@
+{
+  "name": "updose-boilerplate/fastapi",
+  "author": "Alchemist85K",
+  "version": "1.0.0",
+  "targets": ["claude"],
+  "tags": ["fastapi", "python", "pydantic", "ai"],
+  "description": "A pre-configured Claude Code boilerplate for FastAPI + AI projects"
+}

@@ -1,0 +1,44 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Mandatory Rules (Never Forget)
+
+**1. Only perform requested tasks:**
+
+- **Never** proceed with unrequested work
+- If you want to suggest additional work, propose it **after completing the requested task** (never act on your own)
+- Only modify the files you were asked to modify, even if similar code exists elsewhere
+
+**2. Always run lint and format after every code change.** Fix all errors before proceeding. Skip for documentation-only changes. Skip if not configured.
+
+---
+
+## Documentation Management Rules
+
+### docs/plans/
+
+- Filename format: `[feature]-YYYY-MM-DD.md`
+- Every plan file must include a checklist
+- Mark checklist items as completed (`[x]`) as work progresses
+- Do not modify documents where all checklist items are completed
+- Create a new file if a new plan is needed for the same feature
+- Multiple plans on the same day: `[feature]-YYYY-MM-DD-1.md`, `[feature]-YYYY-MM-DD-2.md`
+
+### docs/review/
+
+- Document reviews, retrospectives, and lessons learned
+- Filename format: `[topic]-YYYY-MM-DD.md`
+- Include: summary, what went well, what needs improvement, action items
+
+### docs/specs/
+
+- Document feature specifications, behavior definitions, and system design decisions
+- Filename format: `[feature].md`
+- Include: overview, expected behavior, edge cases, constraints, update date
+- Update existing spec when behavior changes
+
+### docs/ARCHITECTURE.md, docs/DEVELOPMENT.md
+
+- When code changes affect architecture or development setup, notify the user and ask whether to update these documents
+- Do not update without user confirmation

@@ -1,0 +1,9 @@
+{
+  "skills": [
+    "npx skills add https://github.com/intellectronica/agent-skills --skill context7",
+
+    "npx skills add https://github.com/wshobson/agents --skill fastapi-templates",
+    "npx skills add https://github.com/wshobson/agents --skill api-design-principles", 
+    "npx skills add https://github.com/wshobson/agents --skill async-python-patterns"
+  ]
+}
