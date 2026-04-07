@@ -58,10 +58,33 @@ git push origin --delete feature/<name>
 
 ### release
 
-1. Merge to main
-2. Tag with version
-3. Merge to develop
-4. Delete branch
+1. Check if an open PR exists for the branch
+2. If PR exists, merge the PR first (`gh pr merge`)
+3. Pull main to reflect the merged PR
+4. Tag with version
+5. Merge to develop
+6. Delete branch
+
+**With open PR:**
+
+```bash
+# 1. Merge PR (into main)
+gh pr merge release/<version> --merge
+
+# 2. Update local main
+git checkout main
+git pull origin main
+
+# 3. Tag & merge to develop
+git tag -a v<version> -m "Release <version>"
+git checkout develop
+git merge release/<version>
+git branch -d release/<version>
+git push origin --delete release/<version>
+git push origin develop --tags
+```
+
+**Without PR (local merge):**
 
 ```bash
 git checkout main
